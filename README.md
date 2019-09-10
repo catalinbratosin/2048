@@ -3,11 +3,11 @@
 This is my personal approach of the popular game [_2048_](https://2048game.com/). The implementation is realized in C and I also used some features from the ncurses library for the interface.
 
 When you start the game a menu with 3 choices appears:
-<pre>
-New Game -> you will find a 4x4 grid with only 2 cells filled with a value of either 2 or 4. You start with score 0.
- Resume  -> you have the option to resume the last game you played in case you haven't lose until then.
-  Exit   -> Bye, bye! :relaxed:
-</pre>
+
+- `New Game`-> you will find a 4x4 grid with only 2 cells filled with a value of either 2 or 4. You start with score 0.
+- `Resume`-> you have the option to resume the last game you played in case you haven't lost until then.
+- `Exit`-> Bye, bye! :relaxed:
+
 ## Features
 You will also find a __Control Panel__ beneath the game with a few simple *Instructions* in case you never played this game, a *Date/Time bar* so that you don't end up playing for the entire day and a *Highscore* to see your progress.
 
